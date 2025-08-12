@@ -11,7 +11,7 @@ export default function Banner() {
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="bg-[#214e34] text-white flex flex-col justify-center px-6 py-8 md:w-1/2 relative overflow-hidden"
+          className="bg-[#214e34] text-white flex flex-col justify-center px-6 py-8 w-full md:w-1/2 relative overflow-hidden"
         >
           <h2 className="text-3xl sm:text-5xl font-bold leading-tight z-10">
             Hire for what’s next.
@@ -44,12 +44,12 @@ export default function Banner() {
           </motion.div>
         </motion.div>
 
-        {/* Right side - animated waves */}
+        {/* Right side - animated waves (hidden on mobile) */}
         <motion.div
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="md:w-1/2 h-64 md:h-auto bg-gradient-to-br from-green-100 to-green-300 relative flex items-center justify-center"
+          className="hidden md:flex md:w-1/2 h-64 md:h-auto bg-gradient-to-br from-green-100 to-green-300 relative items-center justify-center"
         >
           {/* Animated wave shapes */}
           <motion.svg

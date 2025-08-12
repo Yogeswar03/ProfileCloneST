@@ -35,6 +35,9 @@ This project is a **React + Tailwind CSS** application featuring a modern, respo
 
 ---
 
+## Live
+link: https://profile-clone-st.vercel.app/
+
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
